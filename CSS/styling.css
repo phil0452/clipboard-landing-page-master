@@ -17,13 +17,11 @@ img {
 	height: 100%;
 }
 
-/*section#download .content-container h1*/ 
 h1, h2, h4 {
 	    margin-bottom: 15px;
 	color: var(--Dark-Grayish-Blue);
 }
 
-/* section#download .content-container p */
 p {
 	color: var(--Grayish-Blue);
 	font-size: 14px;
@@ -45,10 +43,7 @@ section#download .content-container #logo-div {
     margin-bottom: 30px;
 }
 
-section#download .content-container .ios-Button,
-section#download .content-container .mac-Button,
-section#clipboard .content-container .ios-Button,
-section#clipboard .content-container .mac-Button {
+.buttons {
 	padding: 15px 75px;
     color: white;
 	font-family: var(--font-bai);
@@ -60,29 +55,27 @@ section#clipboard .content-container .mac-Button {
 	border-style: none;
 }
 
-section#download .content-container .ios-Button,
-section#clipboard .content-container .ios-Button {
+.ios-Button {
 	margin-top: 35px;
 	background-color: var(--Strong-Cyan);
 	border-bottom: 3px solid var(---Dark-Strong-Cyan);
 	box-shadow: 0px 3px 12px var(--Strong-Cyan);
 }
 
-section#download .content-container .mac-Button,
-section#clipboard .content-container .mac-Button {
+.mac-Button {
 	background-color: var(--Light-Blue);
 	border-bottom: 3px solid var(--Dark-Grayish-Blue);
 	box-shadow: 0px 3px 12px var(--Light-Blue);
 }
 
 /*active download buttons */
-section#download .content-container .ios-Button:hover,
-section#download .content-container .ios-Button:active {
+.ios-Button:hover,
+.ios-Button:active {
 	background-color: var(--Strong-Cyan-Active);
 }
 
-section#download .content-container .mac-Button:hover,
-section#download .content-container .mac-Button:active {
+.mac-Button:hover,
+.mac-Button:active {
 	background-color: var(--Light-Blue-Active);
 }
 
@@ -234,6 +227,7 @@ footer #footer-container .flex-footer-links #social-media {
 
 footer #footer-container .flex-footer-links #social-media a {
 	color: var(--Dark-Grayish-Blue);
+	cursor: pointer;
 }
 
 footer #footer-container .flex-footer-links #social-media a:hover {
