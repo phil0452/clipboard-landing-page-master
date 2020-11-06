@@ -1,0 +1,165 @@
+/* big smart phone */
+@media screen and (min-width: 540px) {
+	section#download .content-container p {
+		    max-width: 500px;
+	}
+	.content-container {
+		max-width: 605px;
+		margin: auto;
+	}
+	
+	section#qualities #quality-container #computer-container {
+		width: 500px;
+	}	
+	
+	section#access-anywhere .content-container {
+		max-width: none;
+	}
+}
+
+@media screen and (min-width: 565px) {
+	section#access-anywhere .content-container p {
+		max-width: 535px;
+	}
+}
+
+/*tablet screen */
+@media screen and (min-width: 768px) {
+	section#access-anywhere #access-icon-container {
+		max-width: 700px;
+	}
+}
+
+@media screen and (min-width: 860px) {
+	p {
+		line-height: 25px;
+	}
+	
+	section#download .content-container .ios-Button,
+	section#download .content-container .mac-Button {
+		margin: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	section#clipboard .content-container .ios-Button,
+	section#clipboard .content-container .mac-Button {
+		margin: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	section#workflow #workflow-container {
+		max-width: 870px;
+		margin: auto;
+	}
+	
+	section#workflow #workflow-container #flex-workflow {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	
+	section#workflow #workflow-container #flex-workflow .qualities{
+		height: 175px;		
+	}	
+	
+	section#workflow #workflow-container #flex-workflow .qualities p {
+		margin: 0;
+	}
+	
+	section#clients #clients-container {
+		max-width: 840px;
+		margin: 40px auto;
+	}
+	section#clients #clients-container #flex-client {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	body {
+		font-family: var(--font-bai);
+		background-image: url('../images/bg-header-desktop.png');
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: cover;
+	}
+	
+	section#download .content-container #button-container {
+		display: flex;
+		justify-content: space-between;
+		width: 400px;
+		margin-top: 35px;
+	}	
+	
+	section#clipboard .content-container #button-container {
+		display: flex;
+		justify-content: space-between;
+		width: 400px;
+		margin-top: 35px;
+	}
+	
+	
+	
+	section#qualities #quality-container {
+		flex-direction: row;
+		
+	}
+	
+	section#qualities #quality-container #computer-container {
+		width: 715px;
+		height: 480px;
+		position: relative;
+		    top: 30px;
+	}
+	section#qualities #quality-container .flex-column {
+		flex-direction: column;
+		text-align: left;
+		position: relative;
+		width: 300px;
+		left: 60px;
+	}	
+	
+	footer #footer-container {
+		max-width: 875px;
+		align-items: unset;
+		margin: auto;
+		padding-top: 30px;
+	}
+	
+	footer #footer-container #footer-logo {
+		width: 50px;
+		padding-top: 15px;
+	}
+
+	footer #footer-container #flex-footer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	footer #footer-container .flex-footer-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		   
+	}
+	
+	footer #footer-container #flex-footer #footer-links {
+		 width: 415px;
+	}
+	footer #footer-container .footer-links {
+		align-items: unset;
+	}
+	
+	footer #footer-container .footer-links a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	footer #footer-container .flex-footer-links #social-media {
+		padding-top: 10px;
+		margin-left: auto;
+	}
+}

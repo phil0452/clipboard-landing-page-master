@@ -1,0 +1,241 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: var(--font-bai);
+	background-image: url('../images/bg-header-mobile.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/*section#download .content-container h1*/ 
+h1, h2, h4 {
+	    margin-bottom: 15px;
+	color: var(--Dark-Grayish-Blue);
+}
+
+/* section#download .content-container p */
+p {
+	color: var(--Grayish-Blue);
+	font-size: 14px;
+	line-height: 22px;
+	width: 90%;
+}
+
+/* download options */
+.content-container {
+	padding: 50px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+section#download .content-container #logo-div {
+	margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+section#download .content-container .ios-Button,
+section#download .content-container .mac-Button,
+section#clipboard .content-container .ios-Button,
+section#clipboard .content-container .mac-Button {
+	padding: 15px 75px;
+    color: white;
+	font-family: var(--font-bai);
+    font-size: 16px;
+    border-radius: 30px;
+	margin-bottom: 25px;
+	font-family: var(--font-bai);
+	cursor: pointer;
+	border-style: none;
+}
+
+section#download .content-container .ios-Button,
+section#clipboard .content-container .ios-Button {
+	margin-top: 35px;
+	background-color: var(--Strong-Cyan);
+	border-bottom: 3px solid var(---Dark-Strong-Cyan);
+	box-shadow: 0px 3px 12px var(--Strong-Cyan);
+}
+
+section#download .content-container .mac-Button,
+section#clipboard .content-container .mac-Button {
+	background-color: var(--Light-Blue);
+	border-bottom: 3px solid var(--Dark-Grayish-Blue);
+	box-shadow: 0px 3px 12px var(--Light-Blue);
+}
+
+/*active download buttons */
+section#download .content-container .ios-Button:hover,
+section#download .content-container .ios-Button:active {
+	background-color: var(--Strong-Cyan-Active);
+}
+
+section#download .content-container .mac-Button:hover,
+section#download .content-container .mac-Button:active {
+	background-color: var(--Light-Blue-Active);
+}
+
+/* qualities */
+section#qualities #quality-container {
+	padding-left: 25px;
+    padding-right: 25px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+section#qualities #quality-container #computer-container {
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section#qualities #quality-container .qualities {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+section#qualities #quality-container .qualities #cloud-text {
+	width: 85%;
+}
+
+section#access-anywhere .content-container,
+section#access-anywhere #access-icon-container {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 95%;
+    margin: auto;
+}
+
+section#access-anywhere .content-container p,
+section#workflow .content-container p {
+    width: 80%;
+}
+
+section#workflow #workflow-container {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 30px;
+}
+
+section#workflow #workflow-container #flex-workflow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section#workflow #workflow-container #flex-workflow .qualities {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section#workflow #workflow-container #flex-workflow .qualities #blacklist-icon {
+	width: 36px;
+}
+
+section#workflow #workflow-container #flex-workflow .qualities p {
+	width: 270px;
+    font-size: 14px;
+}
+
+section#clients #clients-container {
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 50px;
+}
+
+section#clients #clients-container #flex-client {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section#clients #clients-container #flex-client .client-icon {
+	width: 110px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#clients #clients-container #flex-client #ibm-icon,
+section#clients #clients-container #flex-client #hp-icon,
+section#clients #clients-container #flex-client #vector-graphics-icon {
+	width: 90px;
+}
+
+section#clipboard .content-container h2 {
+	font-size: 25px;
+}
+
+section#clipboard .content-container p {
+    width: 89%;
+	line-height: 25px;
+}
+
+footer {
+	background-color: hsl(0, 0%, 95%);
+}
+
+footer #footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer #footer-container #footer-logo {
+	width: 50px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+footer #footer-container .footer-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer #footer-container .footer-links a {
+	text-decoration: none;
+	color: var(--Dark-Grayish-Blue);
+	padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+	font-size: 16px;
+}
+
+footer #footer-container .footer-links a:hover {
+	color: var(--Strong-Cyan-Active);
+}
+
+footer #footer-container .flex-footer-links #social-media {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 125px;
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer #footer-container .flex-footer-links #social-media a {
+	color: var(--Dark-Grayish-Blue);
+}
+
+footer #footer-container .flex-footer-links #social-media a:hover {
+	color: var(--Strong-Cyan-Active);
+}
